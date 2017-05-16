@@ -1,0 +1,18 @@
+Blog
+ - are articole cu description, title, are un user
+ - se vor putea adauga articole doar daca userul e autentificat
+ - afisarea articolelor, va fi reactiva 
+ - fiecare user are posibilitatea sa stearga / edita un articol (doar daca ii apartine)
+ - pe pagina de vizualizare a unui articol, vom avea posibilitatea sa comentam (vom avea o colectie separata, comments)
+
+  - https://github.com/cult-of-coders/grapher-boilerplate , sa incerci sa intelegi ce se intampla pe aici
+- De folosit grapher.
+
+3 colectii:
+- users
+- articles
+- comments
+
+- articles, are un user
+- comments are un user si un articleId
+
