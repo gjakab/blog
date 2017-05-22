@@ -6,14 +6,6 @@ export default new SimpleSchema({
 	},
 	date:{
 		type: Date,
-		defaultValue:new Date()
-	},
-	userId:{
-		type: String,
-		optional:true
-	},
-	articleId:{
-		type:String,
-		optional:true
+		defaultValue: new Date()
 	}
 })

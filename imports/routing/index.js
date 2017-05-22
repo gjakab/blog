@@ -11,4 +11,4 @@ route('/login',Login);
 route('/register',Register);
 route('/articles', Articles);
 route('/createArticle',CreateArticle);
-route('/viewArticle/:_id',ViewArticle);
+route('/viewArticle/:id',ViewArticle);

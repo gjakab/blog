@@ -30,6 +30,8 @@ const MyInput = React.createClass({
             <div className={className}>
                 <label htmlFor={this.props.name}>{this.props.title}</label>
                 <input
+
+                    className={this.props.className}
                     type={this.props.type || 'text'}
                     name={this.props.name}
                     onChange={this.changeValue}

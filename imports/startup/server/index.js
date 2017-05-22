@@ -4,6 +4,8 @@ import '/imports/api/articles/methods.js';
 import '/imports/api/comments/methods.js';
 import '/imports/api/articles/publication.js';
 import '/imports/api/comments/publication.js';
+import '/imports/api/grapher';
+import '/imports/api/grapher/exposures';
 import { Accounts } from 'meteor/accounts-base';
 import UserSchema from '/imports/api/users/schema';
 import Comments from '/imports/api/comments/collection';

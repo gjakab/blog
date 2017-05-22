@@ -21,14 +21,14 @@ export default class Register extends Component {
                     //login at the same time
                     Meteor.loginWithPassword(data.email, data.password, function (err) {
                         if (!err) {
-                            console.log('I was called because authentication was a success')
+                            //go to main page
+                            route.go('/');
                         } else {
                             console.log(err);
                         }
                     })
 
-                    //go to main page
-                    route.go('/');
+
                 }
                 else{
                     alert(err);

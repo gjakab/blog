@@ -1,4 +1,25 @@
 /* CSS declarations go here */
+li{
+	border: 1px solid black;
+	width: 50%;
+	margin-top: 4px;
+}
+ul{
+	list-style: none;
+	padding:0;
+}
+.commentBody{
+	border: 1px solid black;
+}
+.comment{
+	color:black;
+}
+.articleTitle{
+	color: #131c6d;
+}
+.articleAuthor{
+	color:#2b7204;
+}
 .article{
 	border: 1px solid black;
 }
