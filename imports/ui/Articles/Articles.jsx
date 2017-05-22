@@ -8,10 +8,7 @@ class ArticlesList extends React.Component {
     }
 
     handleDelete(id){
-        Meteor.call('article.delete',id, function (err, res) {
-            console.log(res);
-            console.log(err);
-        })
+        Meteor.call('article.delete',id);
     }
 
     render() {

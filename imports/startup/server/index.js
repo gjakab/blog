@@ -22,6 +22,3 @@ Meteor.publish('self', function () {
     return Meteor.users.find(this.userId);
 });
 
-Comments.expose({});
-
-
